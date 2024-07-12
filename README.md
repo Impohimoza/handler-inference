@@ -16,6 +16,7 @@
     ```
     python -m venv venv
     source venv/bin/activate
+    pip3 install -U pip
     ```
 
 3. Установите зависимости:
@@ -28,7 +29,8 @@
 
 1. Запустите `main.py`:
     ```sh
-    python main.py
+    python main.py path/to/your/image.jpg --confidence 0.5
+    # Если не указать --confidence, то значение будет 0.5
     ```
 
 2. Следуйте инструкциям в консоли.
