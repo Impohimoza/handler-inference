@@ -55,11 +55,7 @@ def main(image_path: str, confidence: float = 0.5):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='YOLOv5 Inference Script')
-    parser.add_argument(
-        'image_path',
-        type=str,
-        help='Path to the image'
-    )
+    parser.add_argument('image_path', type=str, help='Path to the image')
     parser.add_argument(
         '--confidence',
         type=float,
